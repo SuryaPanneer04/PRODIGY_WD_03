@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-title">
+             <h1>Tic Toc Toe</h1>
+             <p id="instructions"> 
+                Game starts by just Tap on 
+              box<br><br>First Player starts as 
+              <b>Player X </b>And Second Player as  
+              <b>Player 0</b> 
+          </p>
+        </div>
+        <div class="Ui">
+            <div class="row">
+                <input type="text" id="b1" class="cell" onclick="myfunction1();myfunction3();" readonly>
+                <input type="text" id="b2" class="cell" onclick="myfunction1();myfunction4();" readonly>
+                <input type="text" id="b3" class="cell" onclick="myfunction1();myfunction5();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id="b4" class="cell" onclick="myfunction1();myfunction6();" readonly>
+                <input type="text" id="b5" class="cell" onclick="myfunction1();myfunction7();" readonly>
+                <input type="text" id="b6" class="cell" onclick="myfunction1();myfunction8();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id="b7" class="cell" onclick="myfunction1();myfunction9();" readonly>
+                <input type="text" id="b8" class="cell" onclick="myfunction1();myfunction10();" readonly>
+                <input type="text" id="b9" class="cell" onclick="myfunction1();myfunction11();" readonly>
+            </div>
+        </div>
+        <div class="r-btn">
+                 <button onclick="myfunction2()"><i class="uil uil-redo"></i></button>
+        </div>
+        <br><br>
+            <p id="print"></p>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+.header-title>h1 { 
+    color: orangered; 
+    margin-bottom: -5px; 
+} 
+
+#instructions { 
+    margin-bottom: -10px; 
+} 
+
+.Ui{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    padding: 60px;
+}
+
+.row{
+    display: flex;
+}
+
+.cell{
+ 
+ width: 80px;
+ height: 80px;
+ cursor: pointer;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ transition: 0.3e;
+}
+.cell:active{
+   border:  solid rgb(255, 64, 0);
+}
+.r-btn>button{
+    height: 40px;
+    width: 40px ;
+    background-color: rgb(5, 228, 83);
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+}
+/* Player turn space */
+#print { 
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif; 
+    color: rgb(42, 196, 0); 
+    font-size: 20px; 
+} 
